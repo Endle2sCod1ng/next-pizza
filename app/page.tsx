@@ -10,10 +10,11 @@ export default function Home() {
   return (
     <>
       <AppContainer className="mt-5">
-        <Title text="All pizzas" size="lg" className="font-extrabold" />
+        <Title text={"Все пиццы"} size="lg" className="font-extrabold" />
       </AppContainer>
       <TopBar />
-      <AppContainer className="pb-14">
+
+      <AppContainer className="mt-10 pb-14">
         <div className="flex gap-[60px]">
 
           <div className="w-[250px]">
@@ -32,3 +33,7 @@ export default function Home() {
     </>
   );
 }
+// 1:16:10 time stop
+
+//1.) change global theme
+//2.) change Checkbox shadcn from git ulbi

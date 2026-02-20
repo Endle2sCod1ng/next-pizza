@@ -3,8 +3,8 @@ import { cn } from "@/lib/utils"
 interface CategoriesProps {
   className?: string
 }
-const categories = ["Pizza", "Combo", "Appetizers", "Cocktails", "Coffee", "Drinks", "Desserts"]
-// const categories2 = ["Пицца", "Комбо", "Закуски", "Коктейли", "Кофе", "Напитки", "Десерты"]
+// const categories = ["Pizza", "Combo", "Appetizers", "Cocktails", "Coffee", "Drinks", "Desserts"]
+const categories = ["Пицца", "Комбо", "Закуски", "Коктейли", "Кофе", "Напитки", "Десерты"]
 const activeIndex = 0
 
 export const Categories = ({ className }: CategoriesProps) => {

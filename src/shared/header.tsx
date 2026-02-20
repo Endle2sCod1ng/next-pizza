@@ -23,7 +23,7 @@ export const Header = ({ className }: HeaderProps) => {
         </div>
 
         <div className="flex items-center gap-3">
-          <Button className="cursor-pointer flex items-center gap-3" variant={"outline"}><User size={35} />{"Login"}</Button>
+          <Button className="cursor-pointer flex items-center gap-3" variant={"outline"}><User size={35} />{"Войти"}</Button>
 
           <div>
             <Button className="cursor-pointer group relative">
